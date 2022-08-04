@@ -1,12 +1,15 @@
 import styled from "styled-components";
 
 export const HeaderContainer = styled.div`
+  postion: absolute;
+  top: 0px;
+  left: 0px;
+  padding: 10px 100px;
   display: grid;
-  grid-template-columns: 4fr repeat(4, 1.5fr) 30px;
+  grid-template-columns: 4fr repeat(4, 1.5fr);
   text-align: center;
-  column-gap: 20px;
   height: 100px;
-  font-size: 2rem;
+  font-size: 2em;
   align-items: center;
   justify-content: center;
   color: white;
@@ -17,7 +20,15 @@ export const HeaderContainer = styled.div`
 export const HeaderLink = styled.span`
   cursor: pointer;
   &:hover {
-    text-decoration: underline;
-    font-size: 2.2rem;
+    background-color: #fff;
+    color: black;
+    padding: 10px 25px;
+    border-radius: 25px;
   }
+`;
+
+export const Logo = styled.div`
+  font-family: "Quentin", serif;
+  font-size: 4rem;
+  text-align: left;
 `;

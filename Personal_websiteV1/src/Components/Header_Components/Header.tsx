@@ -1,9 +1,9 @@
 import React from "react";
-import { HeaderContainer, HeaderLink } from "./header_styles";
+import { HeaderContainer, HeaderLink, Logo } from "./header_styles";
 function Header() {
   return (
     <HeaderContainer>
-      <div>Jason Dam</div>
+      <Logo>JDam</Logo>
       <div>
         <HeaderLink>Home</HeaderLink>
       </div>
