@@ -6,7 +6,7 @@ export const HeaderContainer = styled.div`
   left: 0px;
   padding: 10px 100px;
   display: grid;
-  grid-template-columns: 4fr repeat(4, 1.5fr);
+  grid-template-columns: 2fr repeat(4, 3fr);
   text-align: center;
   height: 100px;
   font-size: 2em;
@@ -14,7 +14,6 @@ export const HeaderContainer = styled.div`
   justify-content: center;
   color: white;
   background-color: #131a22;
-  transition: font-size 12s;
 `;
 
 export const HeaderLink = styled.span`
